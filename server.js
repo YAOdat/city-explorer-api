@@ -4,7 +4,7 @@ const cors = require('cors');
 const axios = require('axios');
 const {handleWeather} = require('./modules/weather');
 
-const port = 4000
+const port = process.env.PORT || 4000
 const app = express();
 app.use(cors());
 
@@ -44,7 +44,7 @@ class Movie {
     }
   }
 
-
+// test 
 app.listen(port, () => {
   console.log('Listening to port:', port)
 })
