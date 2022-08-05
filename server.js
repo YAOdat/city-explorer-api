@@ -21,8 +21,7 @@ function errorHandler(error, res) {
   res.status(500).send({error: 'Something went wrong!'})
 }
 
-// test
-
-app.listen(process.env.PORT, () => {
-  console.log('listening to port', port)
+// test 
+app.listen(port, () => {
+  console.log('Listening to port:', port)
 })
