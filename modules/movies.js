@@ -1,5 +1,5 @@
 const axios = require('axios');
-const moviesCache = {};
+const moviesCache = {}; // cache memory
 
 async function handleMovie(req, res) {
   const {searchQuery, lat, lon} = req.query;
@@ -7,11 +7,11 @@ async function handleMovie(req, res) {
   console.log(moviesCache[searchQuery])
 
 
-
+// check if data exists in cache:
   if (moviesCache[searchQuery]!==undefined){
 
     res.status(200).send(moviesCache[searchQuery])
-
+// if it doesn't exist, store it:
   } else {
     const movieArr = await axios.get(`https://api.themoviedb.org/3/search/movie?api_key=${process.env.MOVIE_API_KEY}&query=${searchQuery}`);
 
