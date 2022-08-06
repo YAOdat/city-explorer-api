@@ -19,13 +19,13 @@ async function handleWeather(req, res) {
   // res.send({cityArr})
 };
 
-
 class Forecast {
   constructor(day) {
     this.date = day.valid_date;
     this.description = day.weather.description;
-    this.highestTemp = day. high_temp
+    this.highestTemp = day.high_temp
   }
+
 }
 
 // exports.handleWeather = handleWeather
