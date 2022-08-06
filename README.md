@@ -2,21 +2,58 @@
 
 
 **Author**: Yaser Odat
-**Version**: 1.0.0 
+**Version**: 1.0.4 
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
+This is the backend of city-explorer repo.
 
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+JavaScript, React JS, Node JS, Express, Postman.
 
 ## Change Log
-<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
-
-01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
+06/08/2022 -- Added cache memory
 
 ## Credit and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+Waleed Afifi, TAs at ASAC, Hodaifa Zawahreh
+______________
+
+## Time Spent on Each Feature
+
+Name of feature: adding an external API
+
+Estimate of time needed to complete: 6 hours
+
+Start time: 01/08/2022
+
+Finish time: 03/08/2022
+
+Actual time needed to complete: 10 hours
+
+___________
+
+
+Name of feature: adding modules
+
+Estimate of time needed to complete: 5 hours
+
+Start time: 04/08/2022
+
+Finish time: 05/08/2022
+
+Actual time needed to complete: 6 hours
+
+
+___________
+
+Name of feature: adding cache memory
+
+Estimate of time needed to complete: 5 hours
+
+Start time: 06/08/2022 9 PM
+
+Finish time: 06/08/2022 11:30 PM
+
+Actual time needed to complete: 3 hours and 30 minutes
