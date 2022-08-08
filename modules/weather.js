@@ -16,8 +16,9 @@ if (weatherCache[searchQuery] !== undefined){
   try {
     const cityData = cityArr.data.data.map(item => new Forecast(item));
     // console.log(cityData)
-    //res.status(200).send(cityData)
     weatherCache[searchQuery]=cityData;
+    res.status(200).send(cityData)
+    
   } catch (error) {
     errorHandler(error, res)
   }

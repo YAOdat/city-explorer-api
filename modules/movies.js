@@ -18,8 +18,10 @@ async function handleMovie(req, res) {
     try {
       const movieData = movieArr.data.results.map(item => new Movie(item));
       moviesCache[searchQuery]=movieData;
+      res.status(200).send(movieData)
     } catch (error) {
-      errorHandler(error, res)
+      res.status(500).send('Something went wrong.')
+
     }
   }
 
